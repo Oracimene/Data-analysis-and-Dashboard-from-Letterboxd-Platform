@@ -1,28 +1,81 @@
-# 🎬 Análise de Dados e Dashboard - Letterboxd
+EADME — Análise de Dados e Dashboard (Letterboxd)
+📌 Sobre o Projeto
 
-![Status do Projeto](https://img.shields.io/badge/Status-Concluído-green)
-![Python Version](https://img.shields.io/badge/Python-3.x-blue)
+Este projeto tem como objetivo realizar uma análise exploratória de dados e desenvolver um dashboard interativo utilizando dados da plataforma Letterboxd (filmes). A proposta segue os conceitos de Data Science, aplicando tratamento de dados e visualização interativa para gerar insights relevantes.
 
-## 📌 Sobre o Projeto
+🎯 Objetivo
+Explorar um conjunto de dados de filmes
+Realizar análise com Pandas
+Tratar inconsistências e estruturar os dados
+Criar um dashboard interativo para visualização
+Gerar insights sobre filmes, diretores, estúdios e gêneros
+🗂️ Estrutura do Projeto
+📁 Data-analysis-and-Dashboard-from-Letterboxd
+ ┣ 📄 Movie_Data_File.csv   # Base de dados
+ ┣ 📄 app.py                # Aplicação do dashboard (Dash)
+ ┣ 📄 dados.ipynb           # Análise exploratória
+ ┣ 📁 assets/               # Recursos visuais (logo)
+ ┗ 📄 README.md             # Documentação
+🛠️ Tecnologias Utilizadas
+Python
+Pandas
+Plotly
+Dash
+Jupyter Notebook
+🔍 Etapas do Projeto
+1. Coleta de Dados
+Dataset contendo informações de filmes:
+Título
+Diretor
+Avaliação média
+Número de visualizações
+Gêneros
+Estúdios
+2. Análise Exploratória
+Estatísticas descritivas
+Identificação de padrões
+Análise de popularidade e avaliações
+3. Tratamento de Dados
+Separação de listas (gêneros e estúdios)
+Remoção de valores inconsistentes
+Explosão de colunas para análise detalhada
+Filtro dinâmico baseado em relevância (quantil 75%)
+4. Construção do Dashboard
 
-Este projeto tem como objetivo realizar uma análise aprofundada de dados baseada na popular plataforma de avaliação de filmes, **Letterboxd**. Além da exploração e tratamento dos dados, o projeto conta com um **Dashboard Interativo** que permite visualizar insights, estatísticas e tendências sobre filmes, avaliações e hábitos de consumo cinematográfico.
+O dashboard apresenta:
 
-## 📂 Estrutura do Repositório
+🎬 Top estúdios por número de visualizações
+🎥 Diretores com melhor avaliação média (mín. 5 filmes)
+📊 Distribuição de gêneros
+⭐ Relação entre avaliações e popularidade
 
-* **`dados.ipynb`**: Jupyter Notebook contendo a análise exploratória de dados (EDA), limpeza e tratamento da base de dados original.
-* **`app.py`**: Script principal contendo o código do Dashboard interativo.
-* **`Movie_Data_File.csv`**: Arquivo de dados (.csv) utilizado como base para as análises e para alimentar o dashboard.
-* **`assets/`**: Pasta contendo recursos estáticos utilizados na aplicação (como imagens, ícones ou arquivos de estilo CSS).
+Recursos:
 
-## 🛠️ Tecnologias Utilizadas
+Interatividade
+Filtros dinâmicos
+Visualizações intuitivas
+▶️ Como Executar
+Instale as dependências:
+pip install pandas dash plotly
+Execute o projeto:
+python app.py
+Acesse no navegador:
+http://127.0.0.1:8050/
+📈 Principais Insights
+Estúdios mais populares concentram maior número de visualizações
+Diretores com mais filmes tendem a ter avaliações mais consistentes
+Alguns gêneros possuem avaliações médias mais altas que outros
+Popularidade nem sempre significa melhor avaliação
+👥 Autoria
 
-As principais ferramentas e bibliotecas utilizadas neste projeto incluem:
+Projeto desenvolvido como atividade acadêmica para a disciplina de Interface de Software / Data Science.
 
-* **Linguagem:** Python
-* **Análise de Dados:** Pandas, NumPy
-* **Visualização de Dados:** Matplotlib, Seaborn, Plotly 
-* **Dashboard:** Dash
-* **Ambiente de Desenvolvimento:** Jupyter Notebook
+✅ Conclusão
 
+O projeto demonstra como transformar dados brutos em informações úteis através de:
 
+Análise de dados
+Tratamento eficiente
+Visualização interativa
 
+Mostrando na prática a importância da ciência de dados na tomada de decisões.
