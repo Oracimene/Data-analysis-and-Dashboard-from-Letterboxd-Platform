@@ -24,11 +24,5 @@ As principais ferramentas e bibliotecas utilizadas neste projeto incluem:
 * **Dashboard:** Dash
 * **Ambiente de Desenvolvimento:** Jupyter Notebook
 
-## 🚀 Como Executar o Projeto Localmente
 
-Siga os passos abaixo para rodar o dashboard no seu computador:
 
-### 1. Clone o repositório
-```bash
-git clone [https://github.com/Oracimene/Data-analysis-and-Dashboard-from-Letterboxd-Platform.git](https://github.com/Oracimene/Data-analysis-and-Dashboard-from-Letterboxd-Platform.git)
-cd Data-analysis-and-Dashboard-from-Letterboxd-Platform
