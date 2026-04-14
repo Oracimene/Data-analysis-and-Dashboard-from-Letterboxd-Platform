@@ -1,6 +1,6 @@
 # 🎬 Análise de Dados e Dashboard - Letterboxd
 
-![Status do Projeto](https://img.shields.io/badge/Status-Em_Concluido-green)
+![Status do Projeto](https://img.shields.io/badge/Status-Concluído-green)
 ![Python Version](https://img.shields.io/badge/Python-3.x-blue)
 
 ## 📌 Sobre o Projeto
