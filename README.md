@@ -1,4 +1,4 @@
-EADME — Análise de Dados e Dashboard (Letterboxd)
+README — Análise de Dados e Dashboard (Letterboxd)
 📌 Sobre o Projeto
 
 Este projeto tem como objetivo realizar uma análise exploratória de dados e desenvolver um dashboard interativo utilizando dados da plataforma Letterboxd (filmes). A proposta segue os conceitos de Data Science, aplicando tratamento de dados e visualização interativa para gerar insights relevantes.
